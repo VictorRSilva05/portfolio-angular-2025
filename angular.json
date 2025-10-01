@@ -28,7 +28,8 @@
               }
             ],
             "styles": ["src/styles.scss"],
-            "scripts": ["bootstrap/dist/js/bootstrap.min.js"]
+            "scripts": ["bootstrap/dist/js/bootstrap.min.js"],
+            "outputPath": "dist/portfolio-angular-2025"
           },
           "configurations": {
             "production": {
@@ -65,6 +66,15 @@
             }
           },
           "defaultConfiguration": "development"
+        },
+        "deploy":{
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://VictorRSilva05.github.io/portfolio-angular-2025/",
+            "repo": "https://github.com/VictorRSilva05/portfolio-angular-2025",
+            "name":"Victor Rafael",
+            "email": "victorr.silva005@gmail.com"
+          }
         },
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n"

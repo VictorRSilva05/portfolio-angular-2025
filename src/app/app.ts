@@ -1,19 +1,6 @@
 import { Component } from '@angular/core';
-
-interface ItemHabilidade {
-  icone: string;
-  titulo: string;
-  descricao?: string;
-}
-
-interface ItemPortfolio {
-  titulo: string;
-  descricao: string;
-  urlImagem: string;
-  urlGif: string;
-  urlRepositorio: string;
-  stack: string[];
-}
+import { ItemPortfolio } from './models/item-portfolio';
+import { ItemHabilidade } from './models/item-habilidade';
 
 @Component({
   selector: 'app-root',
