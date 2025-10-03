@@ -67,12 +67,12 @@
           },
           "defaultConfiguration": "development"
         },
-        "deploy":{
+        "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "baseHref": "https://VictorRSilva05.github.io/portfolio-angular-2025/",
             "repo": "https://github.com/VictorRSilva05/portfolio-angular-2025",
-            "name":"Victor Rafael",
+            "name": "Victor Rafael",
             "email": "victorr.silva005@gmail.com"
           }
         },
