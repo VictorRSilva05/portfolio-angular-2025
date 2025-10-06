@@ -9,32 +9,88 @@ import { ItemPortfolio } from '../../models/item-portfolio';
 export class Portfolio {
   public itensPortfolio: ItemPortfolio[] = [
     {
-      titulo: 'Controle de Medicamentos',
-      urlImagem: 'controle-de-medicamentos.png',
-      urlGif: 'https://i.imgur.com/SDgwx8m.gif',
-      urlRepositorio:
-        'https://github.com/academiadoprogramador-fullstack/controle-de-medicamentos-2025',
+      titulo: 'Clube da Leitura',
+      urlImagem: 'clubedaleitura.png',
+      urlGif: 'https://imgur.com/OvL594f.gif',
+      urlRepositorio: 'https://github.com/VictorRSilva05/clube-da-leitura',
       stack: [
-        'https://skillicons.dev/icons?i=html&theme=light',
-        'https://skillicons.dev/icons?i=css&theme=light',
         'https://skillicons.dev/icons?i=cs&theme=light',
         'https://skillicons.dev/icons?i=net&theme=light',
       ],
-      descricao: `O sistema de Controle de Medicamentos apresenta o conceito de gerenciamento de um posto de saúde, com o controle de fornecimento, estoque, funcionários, pacientes e retirada de prescrições — com foco na rastreabilidade das movimentações de estoque.`,
+      descricao: `Gustavo sempre adorou compartilhar suas revistas em quadrinhos com seus colegas, porém, acabava se perdendo na organização de todas as revistas, caixas e empréstimos que possuía. Para resolver esse problema, ele decidiu entrar em contato com a Academia do Programador para poder administrar melhor sua coleção de revistas em quadrinhos.`,
     },
     {
-      titulo: 'Gestão de Equipamentos',
-      urlImagem: 'gestao-de-equipamentos.png',
-      urlGif: '',
-      urlRepositorio:
-        'https://github.com/academiadoprogramador-fullstack/gestao-de-equipamentos-2025',
+      titulo: 'Gestão de Equipamentos (WinForms)',
+      urlImagem: 'gestaoequipamentos.png',
+      urlGif: 'https://imgur.com/9MqocVD.gif',
+      urlRepositorio: 'https://github.com/VictorRSilva05/gestao-de-equipamentos?tab=readme-ov-file',
       stack: [
-        'https://skillicons.dev/icons?i=html&theme=light',
-        'https://skillicons.dev/icons?i=css&theme=light',
         'https://skillicons.dev/icons?i=cs&theme=light',
         'https://skillicons.dev/icons?i=net&theme=light',
       ],
-      descricao: `O sistema de Gestão de Equipamentos controla o estoque de um almoxarifado, com a gestão de equipamentos e o registro de chamados de manutenção que eventualmente ocorrem durante o uso dos equipamentos. Também são inclusas informações sobre os fabricantes dos equipamentos para contato de suporte ou compras.`,
+      descricao: `Júnior controla um estoque muito importante na sua empresa, porém ele realizava todo esse processo pelo Excel, o que tornava o processo muito lento e propenso a erros. Júnior então, entrou em contato com a Academia do Programador para que nós pudessemos ajudá-lo a criar um programa que suavizasse sua rotina de trabalho.`,
+    },
+    {
+      titulo: 'Controle de Bar',
+      urlImagem: '',
+      urlGif: '',
+      urlRepositorio: 'https://github.com/VictorRSilva05/controle-de-bar',
+      stack: [
+        'https://skillicons.dev/icons?i=cs&theme=light',
+        'https://skillicons.dev/icons?i=net&theme=light',
+      ],
+      descricao: `Projeto desenvolvido em ASP.NET MVC para gerencia de pedidos de um bar.`,
+    },
+    {
+      titulo: 'Teste Fácil',
+      urlImagem: 'testefacil.png',
+      urlGif: '',
+      urlRepositorio: 'https://github.com/VictorRSilva05/teste-facil',
+      stack: [
+        'https://skillicons.dev/icons?i=cs&theme=light',
+        'https://skillicons.dev/icons?i=net&theme=light',
+        'https://skillicons.dev/icons?i=docker&theme=light',
+        'https://skillicons.dev/icons?i=selenium&theme=light',
+      ],
+      descricao: `Projeto desenvolvido em ASP.NET MVC para criação de testes para uma turma, conta com integração de IA`,
+    },
+    {
+      titulo: 'Controle de Cinema',
+      urlImagem: 'controledecinema.png',
+      urlGif: '',
+      urlRepositorio: 'https://github.com/VictorRSilva05/controle-de-cinema-2025',
+      stack: [
+        'https://skillicons.dev/icons?i=cs&theme=light',
+        'https://skillicons.dev/icons?i=net&theme=light',
+        'https://skillicons.dev/icons?i=selenium&theme=light',
+        'https://skillicons.dev/icons?i=docker&theme=light',
+      ],
+      descricao: `Projeto desenvolvido em ASP.NET MVC para a prática de testes automatizados`,
+    },
+     {
+      titulo: 'eAgenda',
+      urlImagem: 'eagenda.png',
+      urlGif: '',
+      urlRepositorio: 'https://github.com/VictorRSilva05/e-agenda-fullstack-2025',
+      stack: [
+        'https://skillicons.dev/icons?i=cs&theme=light',
+        'https://skillicons.dev/icons?i=net&theme=light',
+        'https://skillicons.dev/icons?i=docker&theme=light',
+         'https://skillicons.dev/icons?i=redis&theme=light',
+      ],
+      descricao: `API baseada em um projeto passado`,
+    },
+     {
+      titulo: 'Gestão de Estacionamento',
+      urlImagem: 'gestaodeestacionamento.png',
+      urlGif: '',
+      urlRepositorio: 'https://github.com/VictorRSilva05/gestao-estacionamento',
+      stack: [
+        'https://skillicons.dev/icons?i=cs&theme=light',
+        'https://skillicons.dev/icons?i=net&theme=light',
+        'https://skillicons.dev/icons?i=docker&theme=light',
+      ],
+      descricao: `API para controle de estacionamento de um hotel`,
     },
   ];
 
